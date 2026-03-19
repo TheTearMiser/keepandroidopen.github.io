@@ -45,9 +45,20 @@ This registration will involve:
 
 ### Update: Google has revealed the "advanced flow" — it is not a solution
 
-On March 19, 2026, Google [published details](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) of the "advanced flow" mechanism intended for "power users" to allow installation of applications from unverified developers after the lockdown takes effect. This flow requires enabling [Developer Mode](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/), self-attesting that you are not being coerced, restarting your device, and waiting a mandatory **24 hours** before being permitted to install applications from unverified sources. Critically, the entire flow is delivered via Google Play Services — not the Android OS — meaning Google can modify, restrict, or remove it at any time without an OS update and without user consent.
+On March 19, 2026, Google [published details](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) of the "advanced flow" mechanism intended for "power users" to allow installation of applications from unverified developers after the lockdown takes effect. It goes like this:
 
-The advanced flow has still not appeared in any Android beta, dev preview, or canary release. As of the date of this update, it exists only as a blog post and UI mockups. The community is being asked to accept a product announcement as a functional safeguard five months before the mandate takes effect.
+1. Enable [Developer Mode](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) by tapping the software build number in _About Phone_ **seven times**
+1. In Settings > System, open Developer Options and scroll down to “Allow Unverified Packages.”
+1. Flip the toggle and answer a scare screen confirming that you are not being coerced
+1. Enter our device unlock pin/password
+1. Restart your device
+1. **Wait 24 hours**
+1. Return to the unverified packages menu at the end of the security delay
+1. Scroll past additional scare screen warnings and select either “Allow temporarily” (seven days) or “Allow indefinitely.”
+1. On the next scare screen, confirm that you understand the risks.
+1. You can now install unverified packages on the device by tapping the “Install anyway” option in the package manager.
+
+This entire flow is delivered through Google Play Services, not the Android OS, meaning Google can modify, restrict, or remove it at any time without an OS update and without any user consent. The advanced flow has still not appeared in any Android beta, dev preview, or canary release. As of the date of this update, it exists only as a blog post and UI mockups. The community is being asked to accept a product announcement as a functional safeguard five months before the mandate takes effect.
 
 Until Google provides a shipping implementation that can be independently verified, our position remains unchanged: **all** apps from non-registered developers **will be blocked** once their lockdown goes into effect in September 2026.
 
