@@ -78,5 +78,3 @@ If your app can be installed outside the Google Play Store, it may stop working 
 > This app may be affected by upcoming changes to Android that limit how applications can be installed outside the Play Store. Visit [keepandroidopen.org](https://keepandroidopen.org) to learn more and take action.
 ```
 This renders as a highlighted callout on GitHub, GitLab, and most other platforms that support the `[!IMPORTANT]` syntax. On platforms that don't, it falls back gracefully to a plain blockquote.
-## If your project also has a website
-You can embed a live countdown banner instead — see [Add the Countdown Banner to Your Site](/banner).
