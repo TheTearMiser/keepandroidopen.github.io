@@ -50,10 +50,10 @@ On March 19, 2026, Google [published details](https://android-developers.googleb
 1. Enable [Developer Mode](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) by tapping the software build number in _About Phone_ **seven times**
 1. In Settings > System, open Developer Options and scroll down to “Allow Unverified Packages.”
 1. Flip the toggle and answer a scare screen confirming that you are not being coerced
-1. Enter our device unlock pin/password
+1. Enter your device unlock pin/password
 1. Restart your device
 1. **Wait 24 hours**
-1. Return to the unverified packages menu at the end of the security delay
+1. Return to the _unverified packages_ menu at the end of the security delay
 1. Scroll past additional scare screen warnings and select either “Allow temporarily” (seven days) or “Allow indefinitely.”
 1. On the next scare screen, confirm that you understand the risks.
 1. You can now install unverified packages on the device by tapping the “Install anyway” option in the package manager.
